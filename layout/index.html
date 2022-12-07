@@ -5,10 +5,72 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>News Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="../stylesheets/index.css">
 </head>
 <body>
-  <h1>News Homepage</h1>
+  <div class="container">
+    <nav class="nav-bar">
+      <img class="logo" src="../assets/logo.svg" alt="Newspaper Logo">
+      <ul class="nav-links">
+        <li class="nav-link"><a href="">Home</a></li>
+        <li class="nav-link"><a href="">New</a></li>
+        <li class="nav-link"><a href="">Popular</a></li>
+        <li class="nav-link"><a href="">Trending</a></li>
+        <li class="nav-link"><a href="">Categories</a></li>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <div class="banner"></div>
+      <div class="new-articles-container">
+        <h2>New</h2>
+        <div class="new-article">
+          <a href="">Hydrogen VS Electric Cars</a>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="new-article">
+          <a href="">The Downsides of Al Artistry</a>
+          <p>What are the possible adverse effects of on-demand Al image generation?</p>
+        </div>
+        <div class="new-article">
+          <a href="">Is VC Funding Drying Up?</a>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+      <h1>The Bright Future of Web 3.0?</h1>
+      <div class="description-container">
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        <button class="btn-pink">Read more</button>
+      </div>
+      <div class="article-card-container">
+        <img src="../assets/image-retro-pcs.jpg" alt="Image of retro PCs">
+        <div class="article-card-info">
+          <p class="number">01</p>
+          <h3><a href="">Reviving Retro PCs</a></h3>
+          <p class="article-card-desc">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="article-card-container">
+        <img src="../assets/image-top-laptops.jpg" alt="Image of retro PCs">
+        <div class="article-card-info">
+          <p class="number">02</p>
+          <h3><a href="">Top 10 Laptops of 2022</a></h3>
+          <p class="article-card-desc">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="article-card-container">
+        <img src="../assets/image-gaming-growth.jpg" alt="Image of retro PCs">
+        <div class="article-card-info">
+          <p class="number">03</p>
+          <h3><a href="">The Growth of Gaming</a></h3>
+          <p class="article-card-desc">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>

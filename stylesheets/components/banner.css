@@ -1,0 +1,17 @@
+.banner {
+  grid-column: span 2;
+  background-image: url(../../assets/image-web-3-desktop.jpg);
+  height: 100%;
+  background-size: cover;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px 0 0;
+}
+
+.description-container p {
+  line-height: 1.5;
+}

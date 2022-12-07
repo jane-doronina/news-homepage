@@ -1,0 +1,33 @@
+.article-card-container {
+  display: flex;
+
+}
+
+.article-card-container img {
+  width: 30%;
+}
+
+.article-card-info {
+  padding: 1px 0px 1px 20px;
+}
+
+.article-card-info .number {
+  font-size: 2rem;
+  color: var(--grayish-blue);
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.article-card-info a {
+  display: inline-block;
+  color: var(--very-dark-blue);
+  margin-bottom: 13px;
+}
+
+.article-card-info a:hover {
+  color: var(--soft-red);
+}
+
+.article-card-info .article-card-desc {
+  line-height: 1.7;
+}

@@ -1,0 +1,26 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .logo {
+  width: 65px;
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  margin-left: 15%;
+  height: auto;
+}
+
+.nav-link a:hover {
+  color: var(--soft-red);
+}

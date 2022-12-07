@@ -1,0 +1,14 @@
+.btn-pink {
+  background-color: var(--soft-red);
+  padding: 17px 25px;
+  width: 60%;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: var(--off-white);
+  font-weight: 700;
+  border: none;
+}
+
+.btn-pink:hover {
+  background-color: var(--very-dark-blue);
+}

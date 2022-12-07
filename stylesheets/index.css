@@ -1,3 +1,6 @@
-h1 {
-  color:red;
-}
+@import "components/article-card.css";
+@import "components/banner.css";
+@import "components/button.css";
+@import "components/main-page.css";
+@import "components/navbar.css";
+@import "components/new.css";
