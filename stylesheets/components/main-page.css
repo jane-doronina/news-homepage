@@ -33,13 +33,29 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1.5fr 1fr 0.8fr;
-  grid-gap: 2.5rem;
+  grid-column-gap: 2.5rem;
+  grid-row-gap: 5rem;
 }
 
-h1 {
-  font-size: 3.4rem;
-  font-weight: 700;
-  color: var(--very-dark-blue);
-  width: 90%;
-  line-height: 1.1;
+@media only screen and (max-width: 900px) {
+  .container {
+    margin: 5% 5% 12% 5%;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    grid-row-gap: 2.5rem;
+  }
+
+  .background-dark {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsla(240, 100%, 5%, 0.4);
+  }
 }

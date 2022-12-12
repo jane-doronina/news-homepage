@@ -22,5 +22,54 @@
 }
 
 .nav-link a:hover {
-  color: var(--soft-red);
+  color: var(--soft-red) !important;
+}
+
+.icon-menu {
+  display: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .nav-bar .logo {
+    width: 45px;
+    height: 27px;
+  }
+
+  .icon-menu {
+    display: block;
+    position: absolute;
+    top: 28px;
+    right: 5vw;
+    color: var(--very-dark-blue);
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+
+  .mobile-menu-open {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65%;
+    height: 100vh;
+    background-color: var(--off-white);
+    list-style: none;
+    padding-top: 23%;
+    z-index: 5;
+    transition: width 2s;
+  }
+
+  .mobile-menu-open .nav-link {
+    display: block;
+    margin: 20px 0;
+  }
+
+  .mobile-menu-open .nav-link a {
+    font-size: 17px;
+    color: var(--very-dark-blue);
+  }
 }

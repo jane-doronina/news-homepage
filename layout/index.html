@@ -16,6 +16,9 @@
     <nav class="nav-bar">
       <img class="logo" src="../assets/logo.svg" alt="Newspaper Logo">
       <ul class="nav-links">
+        <a href="javascript:void(0);" onclick="toggleMobileMenu()">
+          <img class="icon-menu" src="../assets/icon-menu.svg">
+        </a>
         <li class="nav-link"><a href="">Home</a></li>
         <li class="nav-link"><a href="">New</a></li>
         <li class="nav-link"><a href="">Popular</a></li>
@@ -24,7 +27,19 @@
       </ul>
     </nav>
     <div class="wrapper">
-      <div class="banner"></div>
+      <div class="main-article-card">
+        <picture>
+          <source media="(max-width: 600px)" srcset="../assets/image-web-3-mobile.jpg">
+          <img class="banner" src="../assets/image-web-3-desktop.jpg">
+        </picture>
+        <div class="main-article-card-footer">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <div class="description-container">
+            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+            <button class="btn-pink">Read more</button>
+          </div>
+        </div>
+      </div>
       <div class="new-articles-container">
         <h2>New</h2>
         <div class="new-article">
@@ -39,11 +54,6 @@
           <a href="">Is VC Funding Drying Up?</a>
           <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
         </div>
-      </div>
-      <h1>The Bright Future of Web 3.0?</h1>
-      <div class="description-container">
-        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-        <button class="btn-pink">Read more</button>
       </div>
       <div class="article-card-container">
         <img src="../assets/image-retro-pcs.jpg" alt="Image of retro PCs">
@@ -71,6 +81,7 @@
       </div>
     </div>
   </div>
-
+  <div class="background-dark"></div>
+<script src="../javascript/index.js"></script>
 </body>
 </html>

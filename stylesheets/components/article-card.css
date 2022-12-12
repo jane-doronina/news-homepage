@@ -5,6 +5,7 @@
 
 .article-card-container img {
   width: 30%;
+  object-fit: cover;
 }
 
 .article-card-info {
